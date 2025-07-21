@@ -5,10 +5,6 @@ secondaryBackgroundColor = "#dfd9cf"  # Beige doux
 textColor = "#2e2e2e"           # Gris anthracite élégant
 font = "serif"                  # Look raffiné (Georgia, Garamond selon système)
 
-[server]
-headless = false
-enableCORS = false
-port = 8501
 
 [client]
 toolbarMode = "minimal"  # Retire les boutons de dev en haut à droite
