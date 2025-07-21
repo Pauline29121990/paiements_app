@@ -3,21 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
-import locale
-locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')  # Peut nécessiter que le système supporte la locale française
 
-# Fonction pour supporter le format sur streamlit cloud
-def set_french_locale():
-    for loc in ['fr_FR.UTF-8', 'fr_FR', 'fr']:
-        try:
-            locale.setlocale(locale.LC_TIME, loc)
-            return
-        except locale.Error:
-            continue
-    # fallback par défaut (locale système)
-    locale.setlocale(locale.LC_TIME, '')
-
-set_french_locale()
 
 
 # Dataframe
