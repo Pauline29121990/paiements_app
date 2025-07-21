@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# fichiers de configuration/déploiement locaux
+.dockerignore
+Dockerfile
+
+# fichiers lourds ou temporaires
+Cmd_four_2006.xlsx
